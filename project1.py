@@ -26,22 +26,33 @@ def main():
 
 def displayIntro():
     print ("Welcome to the nonprofit donations!")
-    
-1 == "MissionBit"
-2 == "American Red Cross"
-3 == "Salvation Army"
+    print("1. MissionBit")
+    print("2. RedCross")
+    print("3. SalvationArmy")
 
 def displayNonprofits():
-    print("1. MissionBit")
-    print("2. American Red Cross")
-    print("3. Salvation Army")
-    Origanization = int(input("Enter which organization you want to donate to:  "))
-    Donation = int(input("Enter how much money you would like to donate:  "))
-    
+    Missionbit_balance = 0
+    RedCross_balance = 0
+    SalvationArmy_balance = 0 
     
     
 def main():
     displayIntro()
     displayNonprofits()
+    choice1 = "MissionBit_balance"
+    choice2 = "RedCross_balance"
+    choice3 = "SalvationArmy_balance"
+    int(input("Enter which organization you want to donate to:  "))
+    if choice1:
+        Missionbit_balance = int(input("Enter how much money you would like to donate:  "))
+        print(f'Total MissionBit Balance', Missionbit_balance)
+    elif choice2:
+        RedCross_balance = int(input("Enter how much money you would like to donate:  "))
+        print(f'Total RedCross Balance', RedCross_balance)
+    elif choice3:
+        SalvationArmy_balance = int(input("Enter how much money you would like to donate:  "))
+        print(f'Total SalvationArmy', SalvationArmy_balance)
+    
+    
     
 main()
