@@ -26,13 +26,20 @@ def main():
 
 def displayIntro():
     print ("Welcome to the nonprofit donations!")
+    
+1 == "MissionBit"
+2 == "American Red Cross"
+3 == "Salvation Army"
 
 def displayNonprofits():
     print("1. MissionBit")
     print("2. American Red Cross")
     print("3. Salvation Army")
     Origanization = int(input("Enter which organization you want to donate to:  "))
-
+    Donation = int(input("Enter how much money you would like to donate:  "))
+    
+    
+    
 def main():
     displayIntro()
     displayNonprofits()
